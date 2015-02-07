@@ -1,3 +1,6 @@
+/* Definicion de los tipos de variables
+    y operadores en Java
+*/
 class Variable {
     public static void main(String[] args) {
         int tops;
@@ -10,7 +13,8 @@ class Variable {
         boolean gameOver = false;
         
         //Java distingue entre minúsculas y mayúsculas
-        
+        int $my_Number = 6; //Esto es correcto
+        double _height = 1.75; //Esto es correcto
         int allTimeHighScore;
         
         //Mal: int all-TimeHigh Score;
@@ -42,6 +46,7 @@ class Variable {
         number--;
         ++number; //otra forma, diferencia entre prefijos y sufijos
         --number;
+        
         /* Ejemplos de las diferencias:
         
         int x = 3;
@@ -58,15 +63,14 @@ class Variable {
         x = x + 1;
         y = y + 1;
         
+        El orden empleado al desarrollar una exspresión es:
+        1. Primero las operaciones de incremento y decremento.
+        2. Después, la multiplicación, división y módulo.
+        3.Seguidamente, sumas y restas.
+        4.Tras ello, las comparaciones.
+        5.El signo = se usa para establecer el valor de una variable.
+        
         */
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
     }
 }
