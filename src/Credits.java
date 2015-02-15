@@ -17,7 +17,7 @@ class Credits {
         //Mostrar información
         String newName = name.toUpperCase();
         //Otra opcion: string.toLowerCase();
-        
+        //En Java, las cadenas no cambian de valor una vez creadas
         System.out.println(newName);
         System.out.println(title + " (" + year + ") \n" +
             "A " + director + " film. \n\n"
